@@ -100,15 +100,15 @@ export const loginHandler = function (schema, request) {
 };
 
 export const userProfilehandler = function (schema, request) {
-  const user = requiresAuth.call(this, request);
-  if (!user) {
-    return new Response(
-      404,
-      {},
-      {
-        errors: ["The email you entered is not Registered. Not Found error"],
-      }
-    );
-  }
-  return new Response(200, {}, { user });
+  // const user = requiresAuth.call(this, request);
+  // if (!user) {
+  //   return new Response(
+  //     404,
+  //     {},
+  //     {
+  //       errors: ["The email you entered is not Registered. Not Found error"],
+  //     }
+  //   );
+  // }
+  // return new Response(200, {}, { user });
 };
