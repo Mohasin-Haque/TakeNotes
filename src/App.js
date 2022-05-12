@@ -2,6 +2,7 @@ import "./App.css";
 import { LandingPage } from "./pages/LandingPage/LandingPage";
 import { Routes, Route } from "react-router-dom";
 import { HomePage } from "./pages/HomePage/HomePage";
+import { ArchivePage } from "./pages/ArchivePage/ArchivePage";
 
 
 function App() {
@@ -9,8 +10,8 @@ function App() {
     <Routes>
       <Route path="/" element={<LandingPage />} />
       <Route path="/home" element={<HomePage />} />
-      {/* <Route path="/archive" element={<ArchivePage />} />
-      <Route path="/trash" element={<TrashPage />} /> */}
+      <Route path="/archive" element={<ArchivePage />} />
+      {/* <Route path="/trash" element={<TrashPage />} /> */}
     </Routes>
   );
 }

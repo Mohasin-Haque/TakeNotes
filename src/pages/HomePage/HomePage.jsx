@@ -1,5 +1,4 @@
-import { Navbar, Sidebar } from "../../components"
-import { NoteField } from "../../components/NoteField/NoteField"
+import { Navbar, Sidebar, NoteField } from "../../components";
 import "./home-page.css"
 
 const HomePage = () => {

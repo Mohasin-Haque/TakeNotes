@@ -1,0 +1,9 @@
+.page-name{
+    margin: 1rem;
+}
+
+.note-card{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
