@@ -1,15 +1,14 @@
-import { Navbar, Sidebar, NoteCard } from "../../components"
-import "./archive-page.css";
+import { Navbar, Sidebar, NoteCard } from "../../components";
 
 
-const ArchivePage = () => {
+const TrashPage = () => {
     return (
         <div>
             <Navbar />
             <div className="home-page-container">
                 <Sidebar />
                 <div className="right-container">
-                    <h1 className="page-name">Archived</h1>
+                    <h1 className="page-name">Trash</h1>
                     <section className="note-card">
                         <NoteCard />
                         <NoteCard />
@@ -20,4 +19,4 @@ const ArchivePage = () => {
     )
 }
 
-export { ArchivePage }
+export { TrashPage }
