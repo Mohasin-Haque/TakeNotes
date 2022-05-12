@@ -1,9 +1,7 @@
 import "./App.css";
-import { LandingPage } from "./pages/LandingPage/LandingPage";
 import { Routes, Route } from "react-router-dom";
-import { HomePage } from "./pages/HomePage/HomePage";
-import { ArchivePage } from "./pages/ArchivePage/ArchivePage";
-import { TrashPage } from "./pages/TrashPage/TrashPage";
+import { HomePage, ArchivePage, LandingPage, TrashPage, ProfilePage } from "./pages";
+
 
 
 function App() {
@@ -13,6 +11,7 @@ function App() {
       <Route path="/home" element={<HomePage />} />
       <Route path="/archive" element={<ArchivePage />} />
       <Route path="/trash" element={<TrashPage />} />
+      <Route path="/profile" element={<ProfilePage />} />
     </Routes>
   );
 }

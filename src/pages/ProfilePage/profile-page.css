@@ -1,0 +1,14 @@
+.profile-card{
+    text-align: center;
+    border: 2px solid var(--primary-color);
+    padding: 1rem;
+    border-radius: 2rem;
+    width: 50vw;
+    height: auto;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.profile-data{
+    margin: 1rem;
+}
