@@ -1,11 +1,17 @@
-import { LandingPage } from "../../components/LandingPage/LandingPage"
+import { Navbar, Sidebar } from "../../components"
+import { NoteField } from "../../components/NoteField/NoteField"
+import "./home-page.css"
 
-const HomePage = () =>{
-    return(
+const HomePage = () => {
+    return (
         <div>
-               <LandingPage />
+            <Navbar />
+            <div className="home-page-container">
+            <Sidebar />
+            <NoteField />
+            </div>
         </div>
     )
 }
 
-export { HomePage } 
+export { HomePage }
