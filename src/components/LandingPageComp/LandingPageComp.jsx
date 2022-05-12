@@ -1,15 +1,10 @@
-import "./landing-page.css";
+import "./landing-page-comp.css";
 import notesLogo from "./notesLogo.png";
+import { Link } from "react-router-dom";
 
-const LandingPage = () =>{
+const LandingPageComp = () =>{
     return(
         <div>
-            <header className="header">
-                <nav className="navbar">
-                <h2>TakeNotes</h2>
-                <h2><i className='fas fa-sun'></i></h2>
-                </nav>
-            </header>
             <div className="main-container">
                <div className="container">
                    <div className="content">
@@ -17,8 +12,8 @@ const LandingPage = () =>{
                        <h1 className="active-text">Note Taking App</h1>
                        <p className="description"> Manage your daily tasks and workflow in a modern way and boost your efficiency without any efforts</p>
                    </div>
-                       <button className="button cursor">Join Now</button>
-                       <p className="description active-text cursor">Already have an account?</p>   
+                      <Link to="/home"><button className="button cursor">Join Now</button></Link> 
+                       <Link to="/login"><p className="description active-text cursor">Already have an account?</p></Link>  
                </div>
                <img className="image" src={notesLogo} alt="error" />
                </div>
@@ -26,4 +21,4 @@ const LandingPage = () =>{
     )
 }
 
-export { LandingPage } 
+export { LandingPageComp } 

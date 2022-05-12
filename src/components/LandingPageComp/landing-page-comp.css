@@ -4,19 +4,7 @@
     box-sizing: border-box;
     --primary-color: rgb(83,72,199);
     --secondary-color: rgba(255, 255, 255, 0.966); 
-}
-
-
-.header{
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-}
-
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    margin: 0 5rem; 
-    padding: 1rem;
+    --hover-color: rgb(125, 115, 236);
 }
 
 .main-container{
@@ -55,7 +43,7 @@
 
 .button:hover{
     font-weight: bold;
-    background-color: rgb(125, 115, 236);
+    background-color: var(--hover-color);
 }
 
 .cursor{
