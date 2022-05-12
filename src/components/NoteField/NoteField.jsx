@@ -16,7 +16,9 @@ const NoteField = () => {
         <button className="button btn-green cursor">Green</button>
         <button className="button btn-blue cursor">Blue</button>
         </div>
-        <NoteCard />
+        <section className="note-card">
+            <NoteCard />
+            </section>
         </div>
     )
 }
