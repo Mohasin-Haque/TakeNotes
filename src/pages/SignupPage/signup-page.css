@@ -1,0 +1,43 @@
+.signup-container {
+  border: 2px solid var(--primary-color);
+  border-radius: 1rem;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.font-size-one {
+  font-size: 1rem;
+  margin: 0.5rem;
+}
+
+.padding-one {
+  padding: 1rem;
+}
+
+.input {
+  padding: 0.3rem;
+  width: 40vw;
+}
+
+.radio-actions {
+  margin: 1rem;
+}
+
+.margin-zero {
+  margin: 0;
+}
+
+.gap{
+    margin-right: 1rem;
+}
